@@ -1,2 +1,2 @@
-# stm32f070-board
-Board design for STM32F070F6 micro-controller.
+# Hardware Board Design for STM32F070F6
+`STM32F070F6` is a 32-bit ARM Cortex-M0 mircrocontroller from ST. This repository contains the hardware files needed for creating a basic board for working with this micro controller. I am using **KiCad(5.0.1)** as the EDA tool.
