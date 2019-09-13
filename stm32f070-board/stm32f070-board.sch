@@ -410,70 +410,10 @@ Text Label 1700 2150 0    50   ~ 0
 VDDA
 Text Label 5750 1150 1    50   ~ 0
 VDDA
-$Comp
-L Connector:Conn_01x10_Male J?
-U 1 1 5D7BCD4D
-P 9600 2150
-F 0 "J?" H 10050 2650 50  0000 R CNN
-F 1 "Conn_01x10_Male" H 10300 1500 50  0000 R CNN
-F 2 "" H 9600 2150 50  0001 C CNN
-F 3 "~" H 9600 2150 50  0001 C CNN
-	1    9600 2150
-	1    0    0    1   
-$EndComp
 Text Label 6500 3550 0    50   ~ 0
 PA20
 Text Label 6500 3350 0    50   ~ 0
 PA19
-Text Label 9800 2450 0    50   ~ 0
-PA19
-Text Label 9800 2250 0    50   ~ 0
-PA20
-NoConn ~ 9800 1850
-NoConn ~ 9800 1950
-NoConn ~ 9800 2050
-Wire Wire Line
-	9800 1750 10050 1750
-Wire Wire Line
-	10050 1750 10050 2150
-Wire Wire Line
-	10050 2150 9800 2150
-Wire Wire Line
-	10050 2150 10050 2350
-Wire Wire Line
-	10050 2350 9800 2350
-Connection ~ 10050 2150
-$Comp
-L power:GND #PWR?
-U 1 1 5D7C4203
-P 10300 1750
-F 0 "#PWR?" H 10300 1500 50  0001 C CNN
-F 1 "GND" H 10305 1577 50  0000 C CNN
-F 2 "" H 10300 1750 50  0001 C CNN
-F 3 "" H 10300 1750 50  0001 C CNN
-	1    10300 1750
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	10050 1750 10300 1750
-Connection ~ 10050 1750
-$Comp
-L power:VCC #PWR?
-U 1 1 5D7C5A36
-P 10300 2500
-F 0 "#PWR?" H 10300 2350 50  0001 C CNN
-F 1 "VCC" H 10317 2673 50  0000 C CNN
-F 2 "" H 10300 2500 50  0001 C CNN
-F 3 "" H 10300 2500 50  0001 C CNN
-	1    10300 2500
-	-1   0    0    -1  
-$EndComp
-Wire Wire Line
-	9800 2550 10300 2550
-Wire Wire Line
-	10300 2550 10300 2500
-Text Label 9800 1650 0    50   ~ 0
-ToDebugConnector
 NoConn ~ 1600 3650
 Text Label 1600 3450 0    50   ~ 0
 USB_DP
@@ -1051,4 +991,47 @@ Wire Wire Line
 	4850 3650 4850 3550
 Wire Wire Line
 	5150 3550 5200 3550
+$Comp
+L Connector:Conn_01x05_Male J?
+U 1 1 5D7FD58A
+P 9600 2050
+F 0 "J?" H 9800 2550 50  0000 C CNN
+F 1 "Conn_01x05_Male" H 9800 2400 50  0000 C CNN
+F 2 "" H 9600 2050 50  0001 C CNN
+F 3 "~" H 9600 2050 50  0001 C CNN
+	1    9600 2050
+	1    0    0    -1  
+$EndComp
+Text Label 9800 1850 0    50   ~ 0
+ToDebugConnector
+$Comp
+L power:GND #PWR?
+U 1 1 5D7FDC89
+P 10100 1950
+F 0 "#PWR?" H 10100 1700 50  0001 C CNN
+F 1 "GND" H 10105 1777 50  0000 C CNN
+F 2 "" H 10100 1950 50  0001 C CNN
+F 3 "" H 10100 1950 50  0001 C CNN
+	1    10100 1950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9800 1950 10100 1950
+$Comp
+L power:VCC #PWR?
+U 1 1 5D8010D4
+P 10300 2250
+F 0 "#PWR?" H 10300 2100 50  0001 C CNN
+F 1 "VCC" H 10317 2423 50  0000 C CNN
+F 2 "" H 10300 2250 50  0001 C CNN
+F 3 "" H 10300 2250 50  0001 C CNN
+	1    10300 2250
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	9800 2250 10300 2250
+Text Label 9800 2050 0    50   ~ 0
+PA19
+Text Label 9800 2150 0    50   ~ 0
+PA20
 $EndSCHEMATC
