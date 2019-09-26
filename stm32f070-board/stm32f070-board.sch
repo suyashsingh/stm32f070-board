@@ -21,7 +21,8 @@ P 2950 3400
 F 0 "VR1" H 2950 3820 50  0000 C CNN
 F 1 "LD39050PU33R" H 2950 3729 50  0000 C CNN
 F 2 "" H 2950 3450 50  0001 C CNN
-F 3 "" H 2950 3450 50  0001 C CNN
+F 3 "http://www.farnell.com/datasheets/2370074.pdf" H 2950 3450 50  0001 C CNN
+F 4 "https://in.element14.com/stmicroelectronics/ld39050pu33r/ldo-fixed-3-3v-0-5a-dfn-6/dp/2762703" H 2950 3400 50  0001 C CNN "Vendor"
 	1    2950 3400
 	1    0    0    -1  
 $EndComp
@@ -33,6 +34,7 @@ F 0 "J1" H 1355 3917 50  0000 C CNN
 F 1 "USB_B_Micro" H 1355 3826 50  0000 C CNN
 F 2 "" H 1450 3400 50  0001 C CNN
 F 3 "~" H 1450 3400 50  0001 C CNN
+F 4 "https://robu.in/product/micro-usb-2-0-b-type-5-pin-connector/" H 1300 3450 50  0001 C CNN "Vendor"
 	1    1300 3450
 	1    0    0    -1  
 $EndComp
@@ -43,7 +45,8 @@ P 2150 3550
 F 0 "C6" H 2265 3596 50  0000 L CNN
 F 1 "1uF" H 2265 3505 50  0000 L CNN
 F 2 "" H 2188 3400 50  0001 C CNN
-F 3 "~" H 2150 3550 50  0001 C CNN
+F 3 "http://www.farnell.com/datasheets/1901289.pdf" H 2150 3550 50  0001 C CNN
+F 4 "https://in.element14.com/multicomp/mc0603x105k100ct/cap-1-f-10v-10-x5r-0603/dp/1759399RL" H 0   0   50  0001 C CNN "Vendor"
 	1    2150 3550
 	1    0    0    -1  
 $EndComp
@@ -54,7 +57,8 @@ P 3800 3400
 F 0 "R2" H 3870 3446 50  0000 L CNN
 F 1 "750R" H 3870 3355 50  0000 L CNN
 F 2 "" V 3730 3400 50  0001 C CNN
-F 3 "~" H 3800 3400 50  0001 C CNN
+F 3 "http://www.farnell.com/datasheets/2563624.pdf" H 3800 3400 50  0001 C CNN
+F 4 "https://in.element14.com/multicomp/mcwr06x7500ftl/res-750r-1-0-1w-thick-film/dp/2447432" H 3800 3400 50  0001 C CNN "Vendor"
 	1    3800 3400
 	1    0    0    -1  
 $EndComp
@@ -65,7 +69,8 @@ P 3800 3800
 F 0 "D1" V 3838 3683 50  0000 R CNN
 F 1 "PWR_LED" V 3747 3683 50  0000 R CNN
 F 2 "" H 3800 3800 50  0001 C CNN
-F 3 "~" H 3800 3800 50  0001 C CNN
+F 3 "http://www.farnell.com/datasheets/2049859.pdf" H 3800 3800 50  0001 C CNN
+F 4 "https://in.element14.com/vishay/tlms1000-gs08/led-0603-red-4mcd-628nm/dp/1328308?ost=1328308&ddkey=https%3Aen-IN%2FElement14_India%2Fsearch" V 3800 3800 50  0001 C CNN "Vendor"
 	1    3800 3800
 	0    -1   -1   0   
 $EndComp
@@ -76,7 +81,8 @@ P 4250 3550
 F 0 "C10" H 4365 3596 50  0000 L CNN
 F 1 "1uF" H 4365 3505 50  0000 L CNN
 F 2 "" H 4288 3400 50  0001 C CNN
-F 3 "~" H 4250 3550 50  0001 C CNN
+F 3 "http://www.farnell.com/datasheets/1901289.pdf" H 4250 3550 50  0001 C CNN
+F 4 "https://in.element14.com/multicomp/mc0603x105k100ct/cap-1-f-10v-10-x5r-0603/dp/1759399RL" H 0   0   50  0001 C CNN "Vendor"
 	1    4250 3550
 	1    0    0    -1  
 $EndComp
@@ -156,7 +162,8 @@ P 5950 2200
 F 0 "U2" H 6200 550 50  0000 C CNN
 F 1 "STM32F070F6P6" H 5850 1850 50  0000 C CNN
 F 2 "" H 5800 2000 50  0001 C CNN
-F 3 "" H 5800 2000 50  0001 C CNN
+F 3 "http://www.farnell.com/datasheets/2281751.pdf" H 5800 2000 50  0001 C CNN
+F 4 "https://in.element14.com/stmicroelectronics/stm32f070f6p6tr/mcu-32bit-48mhz-tssop-20/dp/3129808?ost=3129808&ddkey=https%3Aen-IN%2FElement14_India%2Fsearch" H 5950 2200 50  0001 C CNN "Vendor"
 	1    5950 2200
 	1    0    0    -1  
 $EndComp
@@ -200,7 +207,8 @@ P 4200 2100
 F 0 "R3" H 4270 2146 50  0000 L CNN
 F 1 "10k" H 4270 2055 50  0000 L CNN
 F 2 "" V 4130 2100 50  0001 C CNN
-F 3 "~" H 4200 2100 50  0001 C CNN
+F 3 "http://www.farnell.com/datasheets/1960319.pdf" H 4200 2100 50  0001 C CNN
+F 4 "https://in.element14.com/walsin/wr06x1002ftl/res-10k-1-75v-0603-thick-film/dp/2502397" H 0   0   50  0001 C CNN "Vendor"
 	1    4200 2100
 	0    1    1    0   
 $EndComp
@@ -212,6 +220,7 @@ F 0 "SW2" H 3850 1385 50  0000 C CNN
 F 1 "SW_Push" H 3850 1294 50  0000 C CNN
 F 2 "" H 3850 1300 50  0001 C CNN
 F 3 "" H 3850 1300 50  0001 C CNN
+F 4 "https://robu.in/product/362-5mm-tactile-push-button-switch-20pcs/" H 3850 1100 50  0001 C CNN "Vendor"
 	1    3850 1100
 	1    0    0    -1  
 $EndComp
@@ -223,6 +232,7 @@ F 0 "C8" H 3965 1396 50  0000 L CNN
 F 1 "100uF" H 3965 1305 50  0000 L CNN
 F 2 "" H 3888 1200 50  0001 C CNN
 F 3 "~" H 3850 1350 50  0001 C CNN
+F 4 "Use 4.7uF if you don't find 100uF in local market" H 0   0   50  0001 C CNN "Vendor"
 	1    3850 1350
 	0    1    1    0   
 $EndComp
@@ -269,7 +279,8 @@ P 1200 1350
 F 0 "C1" H 1150 1450 50  0000 L CNN
 F 1 "4.7uF" H 1100 1250 50  0000 L CNN
 F 2 "" H 1238 1200 50  0001 C CNN
-F 3 "~" H 1200 1350 50  0001 C CNN
+F 3 "http://www.farnell.com/datasheets/2340522.pdf" H 1200 1350 50  0001 C CNN
+F 4 "https://in.element14.com/walsin/0603f475z100ct/cap-4-7-f-10v-y5v-0603-reel/dp/2524873" H 0   0   50  0001 C CNN "Vendor"
 	1    1200 1350
 	-1   0    0    -1  
 $EndComp
@@ -280,7 +291,8 @@ P 1450 1350
 F 0 "C3" H 1400 1450 50  0000 L CNN
 F 1 "100nF" H 1350 1250 50  0000 L CNN
 F 2 "" H 1488 1200 50  0001 C CNN
-F 3 "~" H 1450 1350 50  0001 C CNN
+F 3 "http://www.farnell.com/datasheets/1522998.pdf" H 1450 1350 50  0001 C CNN
+F 4 "https://in.element14.com/multicomp/mc0603b104m500ct/ceramic-capacitor-0-1uf-50v-x7r/dp/1709958" H 0   0   50  0001 C CNN "Vendor"
 	1    1450 1350
 	-1   0    0    -1  
 $EndComp
@@ -291,7 +303,8 @@ P 1650 1350
 F 0 "C5" H 1600 1450 50  0000 L CNN
 F 1 "100nF" H 1500 1250 50  0000 L CNN
 F 2 "" H 1688 1200 50  0001 C CNN
-F 3 "~" H 1650 1350 50  0001 C CNN
+F 3 "http://www.farnell.com/datasheets/1522998.pdf" H 1650 1350 50  0001 C CNN
+F 4 "https://in.element14.com/multicomp/mc0603b104m500ct/ceramic-capacitor-0-1uf-50v-x7r/dp/1709958" H 0   0   50  0001 C CNN "Vendor"
 	1    1650 1350
 	-1   0    0    -1  
 $EndComp
@@ -342,7 +355,8 @@ P 1500 2300
 F 0 "C4" H 1615 2346 50  0000 L CNN
 F 1 "1uF" H 1615 2255 50  0000 L CNN
 F 2 "" H 1538 2150 50  0001 C CNN
-F 3 "~" H 1500 2300 50  0001 C CNN
+F 3 "http://www.farnell.com/datasheets/1901289.pdf" H 1500 2300 50  0001 C CNN
+F 4 "https://in.element14.com/multicomp/mc0603x105k100ct/cap-1-f-10v-10-x5r-0603/dp/1759399RL" H 0   0   50  0001 C CNN "Vendor"
 	1    1500 2300
 	1    0    0    -1  
 $EndComp
@@ -353,7 +367,8 @@ P 1200 2300
 F 0 "C2" H 1050 2400 50  0000 L CNN
 F 1 "10nF" H 1000 2200 50  0000 L CNN
 F 2 "" H 1238 2150 50  0001 C CNN
-F 3 "~" H 1200 2300 50  0001 C CNN
+F 3 "http://www.farnell.com/datasheets/1522998.pdf" H 1200 2300 50  0001 C CNN
+F 4 "https://in.element14.com/multicomp/mc0603b103m500ct/ceramic-capacitor-0-01uf-50v-x7r/dp/1709948" H 0   0   50  0001 C CNN "Vendor"
 	1    1200 2300
 	1    0    0    -1  
 $EndComp
@@ -434,7 +449,8 @@ P 7650 1050
 F 0 "R9" H 7720 1096 50  0000 L CNN
 F 1 "10k" H 7720 1005 50  0000 L CNN
 F 2 "" V 7580 1050 50  0001 C CNN
-F 3 "~" H 7650 1050 50  0001 C CNN
+F 3 "http://www.farnell.com/datasheets/1960319.pdf" H 7650 1050 50  0001 C CNN
+F 4 "https://in.element14.com/walsin/wr06x1002ftl/res-10k-1-75v-0603-thick-film/dp/2502397" H 0   0   50  0001 C CNN "Vendor"
 	1    7650 1050
 	1    0    0    1   
 $EndComp
@@ -462,7 +478,8 @@ P 7150 3250
 F 0 "D4" H 7050 3300 50  0000 R CNN
 F 1 "USR_LED1" H 7300 3400 50  0000 R CNN
 F 2 "" H 7150 3250 50  0001 C CNN
-F 3 "~" H 7150 3250 50  0001 C CNN
+F 3 "http://www.farnell.com/datasheets/2049859.pdf" H 7150 3250 50  0001 C CNN
+F 4 "https://in.element14.com/vishay/tlms1000-gs08/led-0603-red-4mcd-628nm/dp/1328308?ost=1328308&ddkey=https%3Aen-IN%2FElement14_India%2Fsearch" H 7150 3250 50  0001 C CNN "Vendor"
 	1    7150 3250
 	-1   0    0    1   
 $EndComp
@@ -473,7 +490,8 @@ P 7600 3250
 F 0 "R8" H 7670 3296 50  0000 L CNN
 F 1 "750R" H 7670 3205 50  0000 L CNN
 F 2 "" V 7530 3250 50  0001 C CNN
-F 3 "~" H 7600 3250 50  0001 C CNN
+F 3 "http://www.farnell.com/datasheets/2563624.pdf" H 7600 3250 50  0001 C CNN
+F 4 "https://in.element14.com/multicomp/mcwr06x7500ftl/res-750r-1-0-1w-thick-film/dp/2447432" H 7600 3250 50  0001 C CNN "Vendor"
 	1    7600 3250
 	0    -1   1    0   
 $EndComp
@@ -497,7 +515,8 @@ P 7600 2950
 F 0 "R7" V 7550 2700 50  0000 L CNN
 F 1 "30R" V 7600 2900 50  0000 L CNN
 F 2 "" V 7530 2950 50  0001 C CNN
-F 3 "~" H 7600 2950 50  0001 C CNN
+F 3 "http://www.farnell.com/datasheets/1960319.pdf" H 7600 2950 50  0001 C CNN
+F 4 "https://in.element14.com/walsin/wr06x30r0ftl/res-30r-1-0-1w-0603-thick-film/dp/2670750" V 7600 2950 50  0001 C CNN "Vendor"
 	1    7600 2950
 	0    -1   1    0   
 $EndComp
@@ -508,7 +527,8 @@ P 7600 2750
 F 0 "R6" V 7550 2500 50  0000 L CNN
 F 1 "60R" V 7600 2700 50  0000 L CNN
 F 2 "" V 7530 2750 50  0001 C CNN
-F 3 "~" H 7600 2750 50  0001 C CNN
+F 3 "http://www.farnell.com/datasheets/2563624.pdf" H 7600 2750 50  0001 C CNN
+F 4 "https://in.element14.com/multicomp/mcwr06x62r0ftl/res-62r-1-0-1w-thick-film/dp/2447415" V 7600 2750 50  0001 C CNN "Vendor"
 	1    7600 2750
 	0    -1   1    0   
 $EndComp
@@ -519,7 +539,8 @@ P 7600 2550
 F 0 "R5" V 7550 2300 50  0000 L CNN
 F 1 "80R" V 7600 2500 50  0000 L CNN
 F 2 "" V 7530 2550 50  0001 C CNN
-F 3 "~" H 7600 2550 50  0001 C CNN
+F 3 "http://www.farnell.com/datasheets/2563624.pdf" H 7600 2550 50  0001 C CNN
+F 4 "https://in.element14.com/multicomp/mcwr06x82r0ftl/res-82r-1-0-1w-thick-film/dp/2447439" V 7600 2550 50  0001 C CNN "Vendor"
 	1    7600 2550
 	0    -1   1    0   
 $EndComp
@@ -555,7 +576,8 @@ P 7100 2750
 F 0 "D3" H 7100 2283 50  0000 C CNN
 F 1 "LED_RGB" H 7100 2374 50  0000 C CNN
 F 2 "" H 7100 2700 50  0001 C CNN
-F 3 "~" H 7100 2700 50  0001 C CNN
+F 3 "http://www.farnell.com/datasheets/2573293.pdf" H 7100 2700 50  0001 C CNN
+F 4 "https://in.element14.com/cree/clx6f-fkc-cnp1st1e1bb7d3d3/led-aec-q101-rgb-750-1350-240mcd/dp/2840590?st=rgb%20led" H 7100 2750 50  0001 C CNN "Vendor"
 	1    7100 2750
 	-1   0    0    1   
 $EndComp
@@ -578,7 +600,8 @@ P 9950 3350
 F 0 "U3" H 9621 3396 50  0000 R CNN
 F 1 "MCP9700AT-ETT" H 9621 3305 50  0000 R CNN
 F 2 "Package_TO_SOT_SMD:SOT-23" H 9950 2950 50  0001 C CNN
-F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/21942e.pdf" H 9800 3600 50  0001 C CNN
+F 3 "http://www.farnell.com/datasheets/2243473.pdf" H 9800 3600 50  0001 C CNN
+F 4 "https://in.element14.com/microchip/mcp9700at-e-tt/sensor-temperature-1deg-c-3sot23/dp/1605577" H 9950 3350 50  0001 C CNN "Vendor"
 	1    9950 3350
 	-1   0    0    -1  
 $EndComp
@@ -619,7 +642,8 @@ P 9950 5400
 F 0 "U4" H 10200 5100 50  0000 L CNN
 F 1 "Si7055-A20" H 10200 5000 50  0000 L CNN
 F 2 "Package_DFN_QFN:DFN-6-1EP_3x3mm_P1mm_EP1.65x2.55mm" H 9950 5000 50  0001 C CNN
-F 3 "https://www.silabs.com/documents/public/data-sheets/Si7050-1-3-4-5-A20.pdf" H 9750 5700 50  0001 C CNN
+F 3 "http://www.farnell.com/datasheets/2802527.pdf" H 9750 5700 50  0001 C CNN
+F 4 "https://in.element14.com/silicon-labs/si7055-a20-imr/temp-sensor-i2c-output-dfn-6/dp/3105973?ost=3105973&ddkey=https%3Aen-IN%2FElement14_India%2Fsearch" H 9950 5400 50  0001 C CNN "Vendor"
 	1    9950 5400
 	1    0    0    -1  
 $EndComp
@@ -656,7 +680,8 @@ P 10250 4900
 F 0 "C11" V 10400 4850 50  0000 L CNN
 F 1 "0.1uF" V 10100 4800 50  0000 L CNN
 F 2 "" H 10288 4750 50  0001 C CNN
-F 3 "~" H 10250 4900 50  0001 C CNN
+F 3 "http://www.farnell.com/datasheets/1522998.pdf" H 10250 4900 50  0001 C CNN
+F 4 "https://in.element14.com/multicomp/mc0603b104m500ct/ceramic-capacitor-0-1uf-50v-x7r/dp/170995" H 0   0   50  0001 C CNN "Vendor"
 	1    10250 4900
 	0    1    1    0   
 $EndComp
@@ -678,7 +703,8 @@ P 9300 5050
 F 0 "R12" H 9370 5096 50  0000 L CNN
 F 1 "10k" H 9370 5005 50  0000 L CNN
 F 2 "" V 9230 5050 50  0001 C CNN
-F 3 "~" H 9300 5050 50  0001 C CNN
+F 3 "http://www.farnell.com/datasheets/1960319.pdf" H 9300 5050 50  0001 C CNN
+F 4 "https://in.element14.com/walsin/wr06x1002ftl/res-10k-1-75v-0603-thick-film/dp/2502397" H 0   0   50  0001 C CNN "Vendor"
 	1    9300 5050
 	-1   0    0    -1  
 $EndComp
@@ -689,7 +715,8 @@ P 8950 5050
 F 0 "R11" H 9020 5096 50  0000 L CNN
 F 1 "10k" H 9020 5005 50  0000 L CNN
 F 2 "" V 8880 5050 50  0001 C CNN
-F 3 "~" H 8950 5050 50  0001 C CNN
+F 3 "http://www.farnell.com/datasheets/1960319.pdf" H 8950 5050 50  0001 C CNN
+F 4 "https://in.element14.com/walsin/wr06x1002ftl/res-10k-1-75v-0603-thick-film/dp/2502397" H 0   0   50  0001 C CNN "Vendor"
 	1    8950 5050
 	-1   0    0    -1  
 $EndComp
@@ -732,7 +759,8 @@ P 4550 5650
 F 0 "U1" H 4750 5000 50  0000 C CNN
 F 1 "CH340G" H 4850 4900 50  0000 C CNN
 F 2 "Package_SO:SOIC-16_3.9x9.9mm_P1.27mm" H 4600 5100 50  0001 L CNN
-F 3 "http://www.datasheet5.com/pdf-local-2195953" H 4200 6450 50  0001 C CNN
+F 3 "https://robu.in/wp-content/uploads/2018/12/CH340G-SOIC16-USB-to-Serial-TTL-RS232-converter-IC-1.pdf" H 4200 6450 50  0001 C CNN
+F 4 "https://robu.in/product/ch340g-soic16-usb-to-serial-ttl-rs232-converter-ic/" H 4550 5650 50  0001 C CNN "Vendor"
 	1    4550 5650
 	1    0    0    -1  
 $EndComp
@@ -771,6 +799,7 @@ F 0 "J2" H 2905 6017 50  0000 C CNN
 F 1 "USB_B_Micro" H 2905 5926 50  0000 C CNN
 F 2 "" H 3000 5500 50  0001 C CNN
 F 3 "~" H 3000 5500 50  0001 C CNN
+F 4 "https://robu.in/product/micro-usb-2-0-b-type-5-pin-connector/" H 2850 5550 50  0001 C CNN "Vendor"
 	1    2850 5550
 	1    0    0    -1  
 $EndComp
@@ -801,7 +830,8 @@ P 3700 6050
 F 0 "Y1" H 3700 6318 50  0000 C CNN
 F 1 "12MHz" H 3700 6200 50  0000 C CNN
 F 2 "" H 3700 6050 50  0001 C CNN
-F 3 "~" H 3700 6050 50  0001 C CNN
+F 3 "http://www.farnell.com/datasheets/1883669.pdf" H 3700 6050 50  0001 C CNN
+F 4 "https://in.element14.com/abracon/abls-12-000mhz-b4-t/crystal-12mhz-18pf-hc-49us/dp/2467716" H 3700 6050 50  0001 C CNN "Vendor"
 	1    3700 6050
 	1    0    0    -1  
 $EndComp
@@ -812,7 +842,8 @@ P 3550 6350
 F 0 "C7" H 3665 6396 50  0000 L CNN
 F 1 "22pF" H 3400 6250 50  0000 L CNN
 F 2 "" H 3588 6200 50  0001 C CNN
-F 3 "~" H 3550 6350 50  0001 C CNN
+F 3 "http://www.farnell.com/datasheets/2340522.pdf" H 3550 6350 50  0001 C CNN
+F 4 "https://in.element14.com/walsin/0603n220j500ct/cap-22pf-50v-5-c0g-np0-0603/dp/2496893" H 0   0   50  0001 C CNN "Vendor"
 	1    3550 6350
 	1    0    0    -1  
 $EndComp
@@ -823,7 +854,8 @@ P 3850 6350
 F 0 "C9" H 3965 6396 50  0000 L CNN
 F 1 "22pF" H 3965 6305 50  0000 L CNN
 F 2 "" H 3888 6200 50  0001 C CNN
-F 3 "~" H 3850 6350 50  0001 C CNN
+F 3 "http://www.farnell.com/datasheets/2340522.pdf" H 3850 6350 50  0001 C CNN
+F 4 "https://in.element14.com/walsin/0603n220j500ct/cap-22pf-50v-5-c0g-np0-0603/dp/2496893" H 0   0   50  0001 C CNN "Vendor"
 	1    3850 6350
 	1    0    0    -1  
 $EndComp
@@ -896,6 +928,7 @@ F 0 "SW3" H 7350 1567 50  0000 C CNN
 F 1 "SW_DIP_x01" H 7350 1476 50  0000 C CNN
 F 2 "" H 7350 1300 50  0001 C CNN
 F 3 "" H 7350 1300 50  0001 C CNN
+F 4 "https://robu.in/product/362-5mm-tactile-push-button-switch-20pcs/" H 7350 1300 50  0001 C CNN "Vendor"
 	1    7350 1300
 	1    0    0    -1  
 $EndComp
@@ -906,7 +939,8 @@ P 7650 1500
 F 0 "R10" H 7720 1546 50  0000 L CNN
 F 1 "0R" H 7720 1455 50  0000 L CNN
 F 2 "" V 7580 1500 50  0001 C CNN
-F 3 "~" H 7650 1500 50  0001 C CNN
+F 3 "http://www.farnell.com/datasheets/1960319.pdf" H 7650 1500 50  0001 C CNN
+F 4 "https://in.element14.com/walsin/wr06x000-ptl/res-0r0-0603-thick-film/dp/2502392RL" H 7650 1500 50  0001 C CNN "Vendor"
 	1    7650 1500
 	1    0    0    1   
 $EndComp
@@ -922,7 +956,8 @@ P 3600 2100
 F 0 "SW1" H 3600 2385 50  0000 C CNN
 F 1 "SW_DPDT_x2" H 3500 2300 50  0000 C CNN
 F 2 "" H 3600 2100 50  0001 C CNN
-F 3 "" H 3600 2100 50  0001 C CNN
+F 3 "http://www.farnell.com/datasheets/2674788.pdf" H 3600 2100 50  0001 C CNN
+F 4 "https://in.element14.com/c-k-components/js202011jcqn/slide-switch-dpdt-0-3a-6vdc-smd/dp/2931766" H 3600 2100 50  0001 C CNN "Vendor"
 	1    3600 2100
 	-1   0    0    -1  
 $EndComp
@@ -935,7 +970,8 @@ P 3400 2400
 F 0 "R1" H 3470 2446 50  0000 L CNN
 F 1 "0R" H 3470 2355 50  0000 L CNN
 F 2 "" V 3330 2400 50  0001 C CNN
-F 3 "~" H 3400 2400 50  0001 C CNN
+F 3 "http://www.farnell.com/datasheets/1960319.pdf" H 3400 2400 50  0001 C CNN
+F 4 "https://in.element14.com/walsin/wr06x000-ptl/res-0r0-0603-thick-film/dp/2502392RL" H 3400 2400 50  0001 C CNN "Vendor"
 	1    3400 2400
 	-1   0    0    1   
 $EndComp
@@ -950,7 +986,8 @@ P 5000 3550
 F 0 "D2" H 5050 3450 50  0000 R CNN
 F 1 "USR_LED2" H 5250 3650 50  0000 R CNN
 F 2 "" H 5000 3550 50  0001 C CNN
-F 3 "~" H 5000 3550 50  0001 C CNN
+F 3 "http://www.farnell.com/datasheets/2049859.pdf" H 5000 3550 50  0001 C CNN
+F 4 "https://in.element14.com/vishay/tlms1000-gs08/led-0603-red-4mcd-628nm/dp/1328308?ost=1328308&ddkey=https%3Aen-IN%2FElement14_India%2Fsearch" H 5000 3550 50  0001 C CNN "Vendor"
 	1    5000 3550
 	1    0    0    1   
 $EndComp
@@ -972,7 +1009,8 @@ P 4850 3800
 F 0 "R4" H 4920 3846 50  0000 L CNN
 F 1 "750R" H 4920 3755 50  0000 L CNN
 F 2 "" V 4780 3800 50  0001 C CNN
-F 3 "~" H 4850 3800 50  0001 C CNN
+F 3 "http://www.farnell.com/datasheets/2563624.pdf" H 4850 3800 50  0001 C CNN
+F 4 "https://in.element14.com/multicomp/mcwr06x7500ftl/res-750r-1-0-1w-thick-film/dp/2447432" H 4850 3800 50  0001 C CNN "Vendor"
 	1    4850 3800
 	-1   0    0    -1  
 $EndComp
@@ -989,7 +1027,8 @@ P 9600 2050
 F 0 "J3" H 9800 2550 50  0000 C CNN
 F 1 "Conn_01x05_Male" H 9800 2400 50  0000 C CNN
 F 2 "" H 9600 2050 50  0001 C CNN
-F 3 "~" H 9600 2050 50  0001 C CNN
+F 3 "http://www.farnell.com/datasheets/2368223.pdf" H 9600 2050 50  0001 C CNN
+F 4 "https://in.element14.com/harwin/m52-040023v0545/header-tht-vertical-1-27mm-5way/dp/1099560" H 0   0   50  0001 C CNN "Vendor"
 	1    9600 2050
 	1    0    0    -1  
 $EndComp
@@ -1034,4 +1073,8 @@ Wire Wire Line
 Connection ~ 1300 3950
 Wire Wire Line
 	1300 3950 1300 3850
+Text Notes 3450 850  0    50   ~ 0
+Check for correct dimentions of SW2, SW3\nCorrect schematic symbol of SW3\n\n
+Text Notes 1950 1650 0    50   ~ 0
+Replace C8 with 4.7uF if you dont get 100uF.
 $EndSCHEMATC
