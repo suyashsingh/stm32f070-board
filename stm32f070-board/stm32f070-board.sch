@@ -918,20 +918,6 @@ Connection ~ 4550 5050
 Wire Wire Line
 	2750 5950 2850 5950
 Connection ~ 2850 5950
-Wire Wire Line
-	7650 1300 7650 1200
-$Comp
-L Switch:SW_DIP_x01 SW3
-U 1 1 5D7CAFC7
-P 7350 1300
-F 0 "SW3" H 7350 1567 50  0000 C CNN
-F 1 "SW_DIP_x01" H 7350 1476 50  0000 C CNN
-F 2 "" H 7350 1300 50  0001 C CNN
-F 3 "" H 7350 1300 50  0001 C CNN
-F 4 "https://robu.in/product/362-5mm-tactile-push-button-switch-20pcs/" H 7350 1300 50  0001 C CNN "Vendor"
-	1    7350 1300
-	1    0    0    -1  
-$EndComp
 $Comp
 L Device:R R10
 U 1 1 5D7B88B1
@@ -946,9 +932,6 @@ F 4 "https://in.element14.com/walsin/wr06x000-ptl/res-0r0-0603-thick-film/dp/250
 $EndComp
 Wire Wire Line
 	7650 1700 7650 1650
-Wire Wire Line
-	7650 1350 7650 1300
-Connection ~ 7650 1300
 $Comp
 L Switch:SW_DPDT_x2 SW1
 U 1 1 5D7BECF9
@@ -1077,4 +1060,25 @@ Text Notes 3450 850  0    50   ~ 0
 Check for correct dimentions of SW2, SW3\nCorrect schematic symbol of SW3\n\n
 Text Notes 1950 1650 0    50   ~ 0
 Replace C8 with 4.7uF if you dont get 100uF.
+Wire Wire Line
+	7650 1200 7650 1300
+$Comp
+L Switch:SW_Push SW3
+U 1 1 5D8E3013
+P 7350 1300
+F 0 "SW3" H 7350 1585 50  0000 C CNN
+F 1 "SW_Push" H 7350 1494 50  0000 C CNN
+F 2 "" H 7350 1500 50  0001 C CNN
+F 3 "" H 7350 1500 50  0001 C CNN
+F 4 "https://robu.in/product/362-5mm-tactile-push-button-switch-20pcs/" H 7350 1300 50  0001 C CNN "Vendor"
+	1    7350 1300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7550 1300 7650 1300
+Connection ~ 7650 1300
+Wire Wire Line
+	7650 1300 7650 1350
+Wire Wire Line
+	7150 1300 7050 1300
 $EndSCHEMATC
