@@ -821,8 +821,6 @@ F 3 "" H 2850 6100 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	2850 6100 2850 5950
-Text Notes 1500 5650 0    50   ~ 0
-Recheck CH340 connections\nWhy is there a RS232 pin?\n\n\n
 $Comp
 L Device:Crystal Y1
 U 1 1 5D8B4C70
@@ -1056,10 +1054,6 @@ Wire Wire Line
 Connection ~ 1300 3950
 Wire Wire Line
 	1300 3950 1300 3850
-Text Notes 3450 850  0    50   ~ 0
-Check for correct dimentions of SW2, SW3\nCorrect schematic symbol of SW3\n\n
-Text Notes 1950 1650 0    50   ~ 0
-Replace C8 with 4.7uF if you dont get 100uF.
 Wire Wire Line
 	7650 1200 7650 1300
 $Comp
@@ -1081,4 +1075,6 @@ Wire Wire Line
 	7650 1300 7650 1350
 Wire Wire Line
 	7150 1300 7050 1300
+Text Notes 600  7250 0    50   ~ 0
+Note: \n- Recheck RS232 pin connection on CH340\n- Replace C8 with 4.7uF if you don't get 100uF\n- Check for correct dimentions of SW2, SW3\n
 $EndSCHEMATC
