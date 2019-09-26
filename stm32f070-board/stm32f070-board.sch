@@ -681,7 +681,7 @@ F 0 "C11" V 10400 4850 50  0000 L CNN
 F 1 "0.1uF" V 10100 4800 50  0000 L CNN
 F 2 "" H 10288 4750 50  0001 C CNN
 F 3 "http://www.farnell.com/datasheets/1522998.pdf" H 10250 4900 50  0001 C CNN
-F 4 "https://in.element14.com/multicomp/mc0603b104m500ct/ceramic-capacitor-0-1uf-50v-x7r/dp/170995" H 0   0   50  0001 C CNN "Vendor"
+F 4 "https://in.element14.com/multicomp/mc0603b104m160ct/ceramic-capacitor-0-1uf-16v-x7r/dp/1709956?ost=MC0603B104M160CT&ddkey=https%3Aen-IN%2FElement14_India%2Fsearch" H 0   0   50  0001 C CNN "Vendor"
 	1    10250 4900
 	0    1    1    0   
 $EndComp

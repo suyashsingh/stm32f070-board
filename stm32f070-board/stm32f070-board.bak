@@ -681,7 +681,7 @@ F 0 "C11" V 10400 4850 50  0000 L CNN
 F 1 "0.1uF" V 10100 4800 50  0000 L CNN
 F 2 "" H 10288 4750 50  0001 C CNN
 F 3 "http://www.farnell.com/datasheets/1522998.pdf" H 10250 4900 50  0001 C CNN
-F 4 "https://in.element14.com/multicomp/mc0603b104m500ct/ceramic-capacitor-0-1uf-50v-x7r/dp/170995" H 0   0   50  0001 C CNN "Vendor"
+F 4 "https://in.element14.com/multicomp/mc0603b104m160ct/ceramic-capacitor-0-1uf-16v-x7r/dp/1709956?ost=MC0603B104M160CT&ddkey=https%3Aen-IN%2FElement14_India%2Fsearch" H 0   0   50  0001 C CNN "Vendor"
 	1    10250 4900
 	0    1    1    0   
 $EndComp
@@ -821,8 +821,6 @@ F 3 "" H 2850 6100 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	2850 6100 2850 5950
-Text Notes 1500 5650 0    50   ~ 0
-Recheck CH340 connections\nWhy is there a RS232 pin?\n\n\n
 $Comp
 L Device:Crystal Y1
 U 1 1 5D8B4C70
@@ -1056,10 +1054,6 @@ Wire Wire Line
 Connection ~ 1300 3950
 Wire Wire Line
 	1300 3950 1300 3850
-Text Notes 3450 850  0    50   ~ 0
-Check for correct dimentions of SW2, SW3\nCorrect schematic symbol of SW3\n\n
-Text Notes 1950 1650 0    50   ~ 0
-Replace C8 with 4.7uF if you dont get 100uF.
 Wire Wire Line
 	7650 1200 7650 1300
 $Comp
@@ -1081,4 +1075,6 @@ Wire Wire Line
 	7650 1300 7650 1350
 Wire Wire Line
 	7150 1300 7050 1300
+Text Notes 600  7250 0    50   ~ 0
+Note: \n- Recheck RS232 pin connection on CH340\n- Replace C8 with 4.7uF if you don't get 100uF\n- Check for correct dimentions of SW2, SW3\n
 $EndSCHEMATC
