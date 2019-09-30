@@ -44,7 +44,7 @@ U 1 1 5D7A0BBE
 P 2150 3550
 F 0 "C6" H 2265 3596 50  0000 L CNN
 F 1 "1uF" H 2265 3505 50  0000 L CNN
-F 2 "" H 2188 3400 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 2188 3400 50  0001 C CNN
 F 3 "http://www.farnell.com/datasheets/1901289.pdf" H 2150 3550 50  0001 C CNN
 F 4 "https://in.element14.com/multicomp/mc0603x105k100ct/cap-1-f-10v-10-x5r-0603/dp/1759399RL" H 0   0   50  0001 C CNN "Vendor"
 	1    2150 3550
@@ -56,7 +56,7 @@ U 1 1 5D7A0C0E
 P 3800 3400
 F 0 "R2" H 3870 3446 50  0000 L CNN
 F 1 "750R" H 3870 3355 50  0000 L CNN
-F 2 "" V 3730 3400 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 3730 3400 50  0001 C CNN
 F 3 "http://www.farnell.com/datasheets/2563624.pdf" H 3800 3400 50  0001 C CNN
 F 4 "https://in.element14.com/multicomp/mcwr06x7500ftl/res-750r-1-0-1w-thick-film/dp/2447432" H 3800 3400 50  0001 C CNN "Vendor"
 	1    3800 3400
@@ -80,17 +80,12 @@ U 1 1 5D7A0CB9
 P 4250 3550
 F 0 "C10" H 4365 3596 50  0000 L CNN
 F 1 "1uF" H 4365 3505 50  0000 L CNN
-F 2 "" H 4288 3400 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 4288 3400 50  0001 C CNN
 F 3 "http://www.farnell.com/datasheets/1901289.pdf" H 4250 3550 50  0001 C CNN
 F 4 "https://in.element14.com/multicomp/mc0603x105k100ct/cap-1-f-10v-10-x5r-0603/dp/1759399RL" H 0   0   50  0001 C CNN "Vendor"
 	1    4250 3550
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	3300 3250 3800 3250
-Wire Wire Line
-	3800 3250 4250 3250
-Connection ~ 3800 3250
 Wire Wire Line
 	3800 3550 3800 3650
 Wire Wire Line
@@ -206,7 +201,7 @@ U 1 1 5D7A777D
 P 4200 2100
 F 0 "R3" H 4270 2146 50  0000 L CNN
 F 1 "10k" H 4270 2055 50  0000 L CNN
-F 2 "" V 4130 2100 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 4130 2100 50  0001 C CNN
 F 3 "http://www.farnell.com/datasheets/1960319.pdf" H 4200 2100 50  0001 C CNN
 F 4 "https://in.element14.com/walsin/wr06x1002ftl/res-10k-1-75v-0603-thick-film/dp/2502397" H 0   0   50  0001 C CNN "Vendor"
 	1    4200 2100
@@ -230,7 +225,7 @@ U 1 1 5D7AACAA
 P 3850 1350
 F 0 "C8" H 3965 1396 50  0000 L CNN
 F 1 "100uF" H 3965 1305 50  0000 L CNN
-F 2 "" H 3888 1200 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 3888 1200 50  0001 C CNN
 F 3 "~" H 3850 1350 50  0001 C CNN
 F 4 "Use 4.7uF if you don't find 100uF in local market" H 0   0   50  0001 C CNN "Vendor"
 	1    3850 1350
@@ -278,7 +273,7 @@ U 1 1 5D7AE4EA
 P 1200 1350
 F 0 "C1" H 1150 1450 50  0000 L CNN
 F 1 "4.7uF" H 1100 1250 50  0000 L CNN
-F 2 "" H 1238 1200 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 1238 1200 50  0001 C CNN
 F 3 "http://www.farnell.com/datasheets/2340522.pdf" H 1200 1350 50  0001 C CNN
 F 4 "https://in.element14.com/walsin/0603f475z100ct/cap-4-7-f-10v-y5v-0603-reel/dp/2524873" H 0   0   50  0001 C CNN "Vendor"
 	1    1200 1350
@@ -290,7 +285,7 @@ U 1 1 5D7AE5E0
 P 1450 1350
 F 0 "C3" H 1400 1450 50  0000 L CNN
 F 1 "100nF" H 1350 1250 50  0000 L CNN
-F 2 "" H 1488 1200 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 1488 1200 50  0001 C CNN
 F 3 "http://www.farnell.com/datasheets/1522998.pdf" H 1450 1350 50  0001 C CNN
 F 4 "https://in.element14.com/multicomp/mc0603b104m500ct/ceramic-capacitor-0-1uf-50v-x7r/dp/1709958" H 0   0   50  0001 C CNN "Vendor"
 	1    1450 1350
@@ -302,7 +297,7 @@ U 1 1 5D7AE616
 P 1650 1350
 F 0 "C5" H 1600 1450 50  0000 L CNN
 F 1 "100nF" H 1500 1250 50  0000 L CNN
-F 2 "" H 1688 1200 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 1688 1200 50  0001 C CNN
 F 3 "http://www.farnell.com/datasheets/1522998.pdf" H 1650 1350 50  0001 C CNN
 F 4 "https://in.element14.com/multicomp/mc0603b104m500ct/ceramic-capacitor-0-1uf-50v-x7r/dp/1709958" H 0   0   50  0001 C CNN "Vendor"
 	1    1650 1350
@@ -354,7 +349,7 @@ U 1 1 5D7B4E86
 P 1500 2300
 F 0 "C4" H 1615 2346 50  0000 L CNN
 F 1 "1uF" H 1615 2255 50  0000 L CNN
-F 2 "" H 1538 2150 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 1538 2150 50  0001 C CNN
 F 3 "http://www.farnell.com/datasheets/1901289.pdf" H 1500 2300 50  0001 C CNN
 F 4 "https://in.element14.com/multicomp/mc0603x105k100ct/cap-1-f-10v-10-x5r-0603/dp/1759399RL" H 0   0   50  0001 C CNN "Vendor"
 	1    1500 2300
@@ -366,7 +361,7 @@ U 1 1 5D7B4ED0
 P 1200 2300
 F 0 "C2" H 1050 2400 50  0000 L CNN
 F 1 "10nF" H 1000 2200 50  0000 L CNN
-F 2 "" H 1238 2150 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 1238 2150 50  0001 C CNN
 F 3 "http://www.farnell.com/datasheets/1522998.pdf" H 1200 2300 50  0001 C CNN
 F 4 "https://in.element14.com/multicomp/mc0603b103m500ct/ceramic-capacitor-0-01uf-50v-x7r/dp/1709948" H 0   0   50  0001 C CNN "Vendor"
 	1    1200 2300
@@ -448,7 +443,7 @@ U 1 1 5D7CB083
 P 7650 1050
 F 0 "R9" H 7720 1096 50  0000 L CNN
 F 1 "10k" H 7720 1005 50  0000 L CNN
-F 2 "" V 7580 1050 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 7580 1050 50  0001 C CNN
 F 3 "http://www.farnell.com/datasheets/1960319.pdf" H 7650 1050 50  0001 C CNN
 F 4 "https://in.element14.com/walsin/wr06x1002ftl/res-10k-1-75v-0603-thick-film/dp/2502397" H 0   0   50  0001 C CNN "Vendor"
 	1    7650 1050
@@ -489,7 +484,7 @@ U 1 1 5D7D3F06
 P 7600 3250
 F 0 "R8" H 7670 3296 50  0000 L CNN
 F 1 "750R" H 7670 3205 50  0000 L CNN
-F 2 "" V 7530 3250 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 7530 3250 50  0001 C CNN
 F 3 "http://www.farnell.com/datasheets/2563624.pdf" H 7600 3250 50  0001 C CNN
 F 4 "https://in.element14.com/multicomp/mcwr06x7500ftl/res-750r-1-0-1w-thick-film/dp/2447432" H 7600 3250 50  0001 C CNN "Vendor"
 	1    7600 3250
@@ -514,7 +509,7 @@ U 1 1 5D7D845C
 P 7600 2950
 F 0 "R7" V 7550 2700 50  0000 L CNN
 F 1 "30R" V 7600 2900 50  0000 L CNN
-F 2 "" V 7530 2950 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 7530 2950 50  0001 C CNN
 F 3 "http://www.farnell.com/datasheets/1960319.pdf" H 7600 2950 50  0001 C CNN
 F 4 "https://in.element14.com/walsin/wr06x30r0ftl/res-30r-1-0-1w-0603-thick-film/dp/2670750" V 7600 2950 50  0001 C CNN "Vendor"
 	1    7600 2950
@@ -526,7 +521,7 @@ U 1 1 5D7D84B2
 P 7600 2750
 F 0 "R6" V 7550 2500 50  0000 L CNN
 F 1 "60R" V 7600 2700 50  0000 L CNN
-F 2 "" V 7530 2750 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 7530 2750 50  0001 C CNN
 F 3 "http://www.farnell.com/datasheets/2563624.pdf" H 7600 2750 50  0001 C CNN
 F 4 "https://in.element14.com/multicomp/mcwr06x62r0ftl/res-62r-1-0-1w-thick-film/dp/2447415" V 7600 2750 50  0001 C CNN "Vendor"
 	1    7600 2750
@@ -538,7 +533,7 @@ U 1 1 5D7D84F8
 P 7600 2550
 F 0 "R5" V 7550 2300 50  0000 L CNN
 F 1 "80R" V 7600 2500 50  0000 L CNN
-F 2 "" V 7530 2550 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 7530 2550 50  0001 C CNN
 F 3 "http://www.farnell.com/datasheets/2563624.pdf" H 7600 2550 50  0001 C CNN
 F 4 "https://in.element14.com/multicomp/mcwr06x82r0ftl/res-82r-1-0-1w-thick-film/dp/2447439" V 7600 2550 50  0001 C CNN "Vendor"
 	1    7600 2550
@@ -679,7 +674,7 @@ U 1 1 5D8253F2
 P 10250 4900
 F 0 "C11" V 10400 4850 50  0000 L CNN
 F 1 "0.1uF" V 10100 4800 50  0000 L CNN
-F 2 "" H 10288 4750 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 10288 4750 50  0001 C CNN
 F 3 "http://www.farnell.com/datasheets/1522998.pdf" H 10250 4900 50  0001 C CNN
 F 4 "https://in.element14.com/multicomp/mc0603b104m160ct/ceramic-capacitor-0-1uf-16v-x7r/dp/1709956?ost=MC0603B104M160CT&ddkey=https%3Aen-IN%2FElement14_India%2Fsearch" H 0   0   50  0001 C CNN "Vendor"
 	1    10250 4900
@@ -702,7 +697,7 @@ U 1 1 5D82F9A1
 P 9300 5050
 F 0 "R12" H 9370 5096 50  0000 L CNN
 F 1 "10k" H 9370 5005 50  0000 L CNN
-F 2 "" V 9230 5050 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 9230 5050 50  0001 C CNN
 F 3 "http://www.farnell.com/datasheets/1960319.pdf" H 9300 5050 50  0001 C CNN
 F 4 "https://in.element14.com/walsin/wr06x1002ftl/res-10k-1-75v-0603-thick-film/dp/2502397" H 0   0   50  0001 C CNN "Vendor"
 	1    9300 5050
@@ -714,7 +709,7 @@ U 1 1 5D82FB6B
 P 8950 5050
 F 0 "R11" H 9020 5096 50  0000 L CNN
 F 1 "10k" H 9020 5005 50  0000 L CNN
-F 2 "" V 8880 5050 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 8880 5050 50  0001 C CNN
 F 3 "http://www.farnell.com/datasheets/1960319.pdf" H 8950 5050 50  0001 C CNN
 F 4 "https://in.element14.com/walsin/wr06x1002ftl/res-10k-1-75v-0603-thick-film/dp/2502397" H 0   0   50  0001 C CNN "Vendor"
 	1    8950 5050
@@ -839,7 +834,7 @@ U 1 1 5D8B4EE6
 P 3550 6350
 F 0 "C7" H 3665 6396 50  0000 L CNN
 F 1 "22pF" H 3400 6250 50  0000 L CNN
-F 2 "" H 3588 6200 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 3588 6200 50  0001 C CNN
 F 3 "http://www.farnell.com/datasheets/2340522.pdf" H 3550 6350 50  0001 C CNN
 F 4 "https://in.element14.com/walsin/0603n220j500ct/cap-22pf-50v-5-c0g-np0-0603/dp/2496893" H 0   0   50  0001 C CNN "Vendor"
 	1    3550 6350
@@ -851,7 +846,7 @@ U 1 1 5D8B533C
 P 3850 6350
 F 0 "C9" H 3965 6396 50  0000 L CNN
 F 1 "22pF" H 3965 6305 50  0000 L CNN
-F 2 "" H 3888 6200 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 3888 6200 50  0001 C CNN
 F 3 "http://www.farnell.com/datasheets/2340522.pdf" H 3850 6350 50  0001 C CNN
 F 4 "https://in.element14.com/walsin/0603n220j500ct/cap-22pf-50v-5-c0g-np0-0603/dp/2496893" H 0   0   50  0001 C CNN "Vendor"
 	1    3850 6350
@@ -922,7 +917,7 @@ U 1 1 5D7B88B1
 P 7650 1500
 F 0 "R10" H 7720 1546 50  0000 L CNN
 F 1 "0R" H 7720 1455 50  0000 L CNN
-F 2 "" V 7580 1500 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 7580 1500 50  0001 C CNN
 F 3 "http://www.farnell.com/datasheets/1960319.pdf" H 7650 1500 50  0001 C CNN
 F 4 "https://in.element14.com/walsin/wr06x000-ptl/res-0r0-0603-thick-film/dp/2502392RL" H 7650 1500 50  0001 C CNN "Vendor"
 	1    7650 1500
@@ -950,7 +945,7 @@ U 1 1 5D7D0CB6
 P 3400 2400
 F 0 "R1" H 3470 2446 50  0000 L CNN
 F 1 "0R" H 3470 2355 50  0000 L CNN
-F 2 "" V 3330 2400 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 3330 2400 50  0001 C CNN
 F 3 "http://www.farnell.com/datasheets/1960319.pdf" H 3400 2400 50  0001 C CNN
 F 4 "https://in.element14.com/walsin/wr06x000-ptl/res-0r0-0603-thick-film/dp/2502392RL" H 3400 2400 50  0001 C CNN "Vendor"
 	1    3400 2400
@@ -989,7 +984,7 @@ U 1 1 5D7E3D28
 P 4850 3800
 F 0 "R4" H 4920 3846 50  0000 L CNN
 F 1 "750R" H 4920 3755 50  0000 L CNN
-F 2 "" V 4780 3800 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 4780 3800 50  0001 C CNN
 F 3 "http://www.farnell.com/datasheets/2563624.pdf" H 4850 3800 50  0001 C CNN
 F 4 "https://in.element14.com/multicomp/mcwr06x7500ftl/res-750r-1-0-1w-thick-film/dp/2447432" H 4850 3800 50  0001 C CNN "Vendor"
 	1    4850 3800
@@ -1077,4 +1072,9 @@ Wire Wire Line
 	7150 1300 7050 1300
 Text Notes 600  7250 0    50   ~ 0
 Note: \n- Recheck RS232 pin connection on CH340\n- Replace C8 with 4.7uF if you don't get 100uF\n- Check for correct dimentions of SW2, SW3\n
+Connection ~ 3800 3250
+Wire Wire Line
+	3800 3250 4250 3250
+Wire Wire Line
+	3300 3250 3800 3250
 $EndSCHEMATC
