@@ -68,7 +68,7 @@ U 1 1 5D7A0C7B
 P 3800 3800
 F 0 "D1" V 3838 3683 50  0000 R CNN
 F 1 "PWR_LED" V 3747 3683 50  0000 R CNN
-F 2 "stm32f070-board:LED_VISHAY" H 3800 3800 50  0001 C CNN
+F 2 "" H 3800 3800 50  0001 C CNN
 F 3 "http://www.farnell.com/datasheets/2049859.pdf" H 3800 3800 50  0001 C CNN
 F 4 "https://in.element14.com/vishay/tlms1000-gs08/led-0603-red-4mcd-628nm/dp/1328308?ost=1328308&ddkey=https%3Aen-IN%2FElement14_India%2Fsearch" V 3800 3800 50  0001 C CNN "Vendor"
 	1    3800 3800
@@ -472,7 +472,7 @@ U 1 1 5D7D3C44
 P 7150 3250
 F 0 "D4" H 7050 3300 50  0000 R CNN
 F 1 "USR_LED1" H 7300 3400 50  0000 R CNN
-F 2 "stm32f070-board:LED_VISHAY" H 7150 3250 50  0001 C CNN
+F 2 "" H 7150 3250 50  0001 C CNN
 F 3 "http://www.farnell.com/datasheets/2049859.pdf" H 7150 3250 50  0001 C CNN
 F 4 "https://in.element14.com/vishay/tlms1000-gs08/led-0603-red-4mcd-628nm/dp/1328308?ost=1328308&ddkey=https%3Aen-IN%2FElement14_India%2Fsearch" H 7150 3250 50  0001 C CNN "Vendor"
 	1    7150 3250
@@ -961,7 +961,7 @@ U 1 1 5D7DA43F
 P 5000 3550
 F 0 "D2" H 5050 3450 50  0000 R CNN
 F 1 "USR_LED2" H 5250 3650 50  0000 R CNN
-F 2 "stm32f070-board:LED_VISHAY" H 5000 3550 50  0001 C CNN
+F 2 "" H 5000 3550 50  0001 C CNN
 F 3 "http://www.farnell.com/datasheets/2049859.pdf" H 5000 3550 50  0001 C CNN
 F 4 "https://in.element14.com/vishay/tlms1000-gs08/led-0603-red-4mcd-628nm/dp/1328308?ost=1328308&ddkey=https%3Aen-IN%2FElement14_India%2Fsearch" H 5000 3550 50  0001 C CNN "Vendor"
 	1    5000 3550
