@@ -214,8 +214,8 @@ P 3850 1100
 F 0 "SW2" H 3850 1385 50  0000 C CNN
 F 1 "SW_Push" H 3850 1294 50  0000 C CNN
 F 2 "" H 3850 1300 50  0001 C CNN
-F 3 "" H 3850 1300 50  0001 C CNN
-F 4 "https://robu.in/product/362-5mm-tactile-push-button-switch-20pcs/" H 3850 1100 50  0001 C CNN "Vendor"
+F 3 "http://www.farnell.com/datasheets/1754085.pdf" H 3850 1300 50  0001 C CNN
+F 4 "https://in.element14.com/alcoswitch-te-connectivity/fsmsm/switch-spst-0-05a-24vdc-smd/dp/1703878" H 3850 1100 50  0001 C CNN "Vendor"
 	1    3850 1100
 	1    0    0    -1  
 $EndComp
@@ -1058,8 +1058,8 @@ P 7350 1300
 F 0 "SW3" H 7350 1585 50  0000 C CNN
 F 1 "SW_Push" H 7350 1494 50  0000 C CNN
 F 2 "" H 7350 1500 50  0001 C CNN
-F 3 "" H 7350 1500 50  0001 C CNN
-F 4 "https://robu.in/product/362-5mm-tactile-push-button-switch-20pcs/" H 7350 1300 50  0001 C CNN "Vendor"
+F 3 "http://www.farnell.com/datasheets/1754085.pdf" H 7350 1500 50  0001 C CNN
+F 4 "https://in.element14.com/alcoswitch-te-connectivity/fsmsm/switch-spst-0-05a-24vdc-smd/dp/1703878" H 7350 1300 50  0001 C CNN "Vendor"
 	1    7350 1300
 	1    0    0    -1  
 $EndComp
