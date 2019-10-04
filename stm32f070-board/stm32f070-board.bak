@@ -570,7 +570,7 @@ U 1 1 5D801829
 P 7100 2750
 F 0 "D3" H 7100 2283 50  0000 C CNN
 F 1 "LED_RGB" H 7100 2374 50  0000 C CNN
-F 2 "" H 7100 2700 50  0001 C CNN
+F 2 "stm32f070-board:PLCC6" H 7100 2700 50  0001 C CNN
 F 3 "http://www.farnell.com/datasheets/2573293.pdf" H 7100 2700 50  0001 C CNN
 F 4 "https://in.element14.com/cree/clx6f-fkc-cnp1st1e1bb7d3d3/led-aec-q101-rgb-750-1350-240mcd/dp/2840590?st=rgb%20led" H 7100 2750 50  0001 C CNN "Vendor"
 	1    7100 2750
