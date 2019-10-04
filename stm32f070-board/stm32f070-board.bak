@@ -32,7 +32,7 @@ U 1 1 5D7A0AEB
 P 1300 3450
 F 0 "J1" H 1355 3917 50  0000 C CNN
 F 1 "USB_B_Micro" H 1355 3826 50  0000 C CNN
-F 2 "" H 1450 3400 50  0001 C CNN
+F 2 "stm32f070-board:usb" H 1450 3400 50  0001 C CNN
 F 3 "~" H 1450 3400 50  0001 C CNN
 F 4 "https://robu.in/product/micro-usb-2-0-b-type-5-pin-connector/" H 1300 3450 50  0001 C CNN "Vendor"
 	1    1300 3450
@@ -792,7 +792,7 @@ U 1 1 5D8A34F0
 P 2850 5550
 F 0 "J2" H 2905 6017 50  0000 C CNN
 F 1 "USB_B_Micro" H 2905 5926 50  0000 C CNN
-F 2 "" H 3000 5500 50  0001 C CNN
+F 2 "stm32f070-board:usb" H 3000 5500 50  0001 C CNN
 F 3 "~" H 3000 5500 50  0001 C CNN
 F 4 "https://robu.in/product/micro-usb-2-0-b-type-5-pin-connector/" H 2850 5550 50  0001 C CNN "Vendor"
 	1    2850 5550
@@ -822,7 +822,7 @@ U 1 1 5D8B4C70
 P 3700 6050
 F 0 "Y1" H 3700 6318 50  0000 C CNN
 F 1 "12MHz" H 3700 6200 50  0000 C CNN
-F 2 "" H 3700 6050 50  0001 C CNN
+F 2 "stm32f070-board:HC_49US-(AT49)_1" H 3700 6050 50  0001 C CNN
 F 3 "http://www.farnell.com/datasheets/1883669.pdf" H 3700 6050 50  0001 C CNN
 F 4 "https://in.element14.com/abracon/abls-12-000mhz-b4-t/crystal-12mhz-18pf-hc-49us/dp/2467716" H 3700 6050 50  0001 C CNN "Vendor"
 	1    3700 6050
