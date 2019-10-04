@@ -156,7 +156,7 @@ U 1 1 5D7A7448
 P 5950 2200
 F 0 "U2" H 6200 550 50  0000 C CNN
 F 1 "STM32F070F6P6" H 5850 1850 50  0000 C CNN
-F 2 "" H 5800 2000 50  0001 C CNN
+F 2 "stm32f070-board:TSSOP20_P0.65mm" H 5800 2000 50  0001 C CNN
 F 3 "http://www.farnell.com/datasheets/2281751.pdf" H 5800 2000 50  0001 C CNN
 F 4 "https://in.element14.com/stmicroelectronics/stm32f070f6p6tr/mcu-32bit-48mhz-tssop-20/dp/3129808?ost=3129808&ddkey=https%3Aen-IN%2FElement14_India%2Fsearch" H 5950 2200 50  0001 C CNN "Vendor"
 	1    5950 2200
@@ -1002,7 +1002,7 @@ U 1 1 5D7FD58A
 P 9600 2050
 F 0 "J3" H 9800 2550 50  0000 C CNN
 F 1 "Conn_01x05_Male" H 9800 2400 50  0000 C CNN
-F 2 "" H 9600 2050 50  0001 C CNN
+F 2 "Connector_PinHeader_1.00mm:PinHeader_1x05_P1.00mm_Vertical" H 9600 2050 50  0001 C CNN
 F 3 "http://www.farnell.com/datasheets/2368223.pdf" H 9600 2050 50  0001 C CNN
 F 4 "https://in.element14.com/harwin/m52-040023v0545/header-tht-vertical-1-27mm-5way/dp/1099560" H 0   0   50  0001 C CNN "Vendor"
 	1    9600 2050
