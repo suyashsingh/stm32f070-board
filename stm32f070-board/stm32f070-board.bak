@@ -20,7 +20,7 @@ U 1 1 5D7A09D8
 P 2950 3400
 F 0 "VR1" H 2950 3820 50  0000 C CNN
 F 1 "LD39050PU33R" H 2950 3729 50  0000 C CNN
-F 2 "LD39050PU33R:SON95P300X300X100-7N" H 2950 3450 50  0001 C CNN
+F 2 "stm32f070-board:voltage-reg" H 2950 3450 50  0001 C CNN
 F 3 "http://www.farnell.com/datasheets/2370074.pdf" H 2950 3450 50  0001 C CNN
 F 4 "https://in.element14.com/stmicroelectronics/ld39050pu33r/ldo-fixed-3-3v-0-5a-dfn-6/dp/2762703" H 2950 3400 50  0001 C CNN "Vendor"
 	1    2950 3400
