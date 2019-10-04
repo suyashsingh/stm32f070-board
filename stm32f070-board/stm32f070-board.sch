@@ -822,7 +822,7 @@ U 1 1 5D8B4C70
 P 3700 6050
 F 0 "Y1" H 3700 6318 50  0000 C CNN
 F 1 "12MHz" H 3700 6200 50  0000 C CNN
-F 2 "" H 3700 6050 50  0001 C CNN
+F 2 "stm32f070-board:HC_49US-(AT49)_1" H 3700 6050 50  0001 C CNN
 F 3 "http://www.farnell.com/datasheets/1883669.pdf" H 3700 6050 50  0001 C CNN
 F 4 "https://in.element14.com/abracon/abls-12-000mhz-b4-t/crystal-12mhz-18pf-hc-49us/dp/2467716" H 3700 6050 50  0001 C CNN "Vendor"
 	1    3700 6050
