@@ -213,7 +213,7 @@ U 1 1 5D7AAB22
 P 3850 1100
 F 0 "SW2" H 3850 1385 50  0000 C CNN
 F 1 "SW_Push" H 3850 1294 50  0000 C CNN
-F 2 "" H 3850 1300 50  0001 C CNN
+F 2 "stm32f070-board:TACTILE_SWITCH_3.5X6.0mm" H 3850 1300 50  0001 C CNN
 F 3 "http://www.farnell.com/datasheets/1754085.pdf" H 3850 1300 50  0001 C CNN
 F 4 "https://in.element14.com/alcoswitch-te-connectivity/fsmsm/switch-spst-0-05a-24vdc-smd/dp/1703878" H 3850 1100 50  0001 C CNN "Vendor"
 	1    3850 1100
@@ -1057,7 +1057,7 @@ U 1 1 5D8E3013
 P 7350 1300
 F 0 "SW3" H 7350 1585 50  0000 C CNN
 F 1 "SW_Push" H 7350 1494 50  0000 C CNN
-F 2 "" H 7350 1500 50  0001 C CNN
+F 2 "stm32f070-board:TACTILE_SWITCH_3.5X6.0mm" H 7350 1500 50  0001 C CNN
 F 3 "http://www.farnell.com/datasheets/1754085.pdf" H 7350 1500 50  0001 C CNN
 F 4 "https://in.element14.com/alcoswitch-te-connectivity/fsmsm/switch-spst-0-05a-24vdc-smd/dp/1703878" H 7350 1300 50  0001 C CNN "Vendor"
 	1    7350 1300

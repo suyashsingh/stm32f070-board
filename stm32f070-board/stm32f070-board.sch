@@ -931,7 +931,7 @@ U 1 1 5D7BECF9
 P 3600 2100
 F 0 "SW1" H 3600 2385 50  0000 C CNN
 F 1 "SW_DPDT_x2" H 3500 2300 50  0000 C CNN
-F 2 "" H 3600 2100 50  0001 C CNN
+F 2 "stm32f070-board:SLIDE_SWITCH_3.6x9.0mm" H 3600 2100 50  0001 C CNN
 F 3 "http://www.farnell.com/datasheets/2674788.pdf" H 3600 2100 50  0001 C CNN
 F 4 "https://in.element14.com/c-k-components/js202011jcqn/slide-switch-dpdt-0-3a-6vdc-smd/dp/2931766" H 3600 2100 50  0001 C CNN "Vendor"
 	1    3600 2100
@@ -1071,7 +1071,7 @@ Wire Wire Line
 Wire Wire Line
 	7150 1300 7050 1300
 Text Notes 600  7250 0    50   ~ 0
-Note: \n- Recheck RS232 pin connection on CH340\n- Replace C8 with 4.7uF if you don't get 100uF\n- Check for correct dimentions of SW2, SW3\n
+Note: \n- Recheck RS232 pin connection on CH340\n- Replace C8 with 4.7uF if you don't get 100uF\n- Check for correct dimentions of SW2, SW3\n- Update the schematic to use the 3way slide switch.\n   The pins in the schematic might not match the \n   pins in the footprint\n\n
 Connection ~ 3800 3250
 Wire Wire Line
 	3800 3250 4250 3250
