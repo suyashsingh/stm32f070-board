@@ -1071,7 +1071,7 @@ Wire Wire Line
 Wire Wire Line
 	7150 1300 7050 1300
 Text Notes 600  7250 0    50   ~ 0
-Note: \n- Recheck RS232 pin connection on CH340\n- Replace C8 with 4.7uF if you don't get 100uF\n- Check for correct dimentions of SW2, SW3\n- Update the schematic to use the 3way slide switch.\n   The pins in the schematic might not match the \n   pins in the footprint\n\n
+Note: \n- Replace C8 with 4.7uF if you don't get 100uF
 Connection ~ 3800 3250
 Wire Wire Line
 	3800 3250 4250 3250
