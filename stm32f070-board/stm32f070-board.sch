@@ -636,7 +636,7 @@ U 1 1 5D81A91E
 P 9950 5400
 F 0 "U4" H 10200 5100 50  0000 L CNN
 F 1 "Si7055-A20" H 10200 5000 50  0000 L CNN
-F 2 "Package_DFN_QFN:DFN-6-1EP_3x3mm_P1mm_EP1.65x2.55mm" H 9950 5000 50  0001 C CNN
+F 2 "stm32f070-board:Si705x_Footprint_P1.0mm" H 9950 5000 50  0001 C CNN
 F 3 "http://www.farnell.com/datasheets/2802527.pdf" H 9750 5700 50  0001 C CNN
 F 4 "https://in.element14.com/silicon-labs/si7055-a20-imr/temp-sensor-i2c-output-dfn-6/dp/3105973?ost=3105973&ddkey=https%3Aen-IN%2FElement14_India%2Fsearch" H 9950 5400 50  0001 C CNN "Vendor"
 	1    9950 5400
