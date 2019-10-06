@@ -54,8 +54,8 @@ $Comp
 L Device:R R2
 U 1 1 5D7A0C0E
 P 3800 3400
-F 0 "R2" H 3870 3446 50  0000 L CNN
-F 1 "750R" H 3870 3355 50  0000 L CNN
+F 0 "R2" H 3850 3400 50  0000 L CNN
+F 1 "750R" V 3800 3300 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 3730 3400 50  0001 C CNN
 F 3 "http://www.farnell.com/datasheets/2563624.pdf" H 3800 3400 50  0001 C CNN
 F 4 "https://in.element14.com/multicomp/mcwr06x7500ftl/res-750r-1-0-1w-thick-film/dp/2447432" H 3800 3400 50  0001 C CNN "Vendor"
@@ -66,8 +66,8 @@ $Comp
 L Device:LED D1
 U 1 1 5D7A0C7B
 P 3800 3800
-F 0 "D1" V 3838 3683 50  0000 R CNN
-F 1 "PWR_LED" V 3747 3683 50  0000 R CNN
+F 0 "D1" V 3850 3700 50  0000 R CNN
+F 1 "PWR_LED" V 3750 3700 50  0000 R CNN
 F 2 "stm32f070-board:LED_VISHAY" H 3800 3800 50  0001 C CNN
 F 3 "http://www.farnell.com/datasheets/2049859.pdf" H 3800 3800 50  0001 C CNN
 F 4 "https://in.element14.com/vishay/tlms1000-gs08/led-0603-red-4mcd-628nm/dp/1328308?ost=1328308&ddkey=https%3Aen-IN%2FElement14_India%2Fsearch" V 3800 3800 50  0001 C CNN "Vendor"
@@ -199,8 +199,8 @@ $Comp
 L Device:R R3
 U 1 1 5D7A777D
 P 4200 2100
-F 0 "R3" H 4270 2146 50  0000 L CNN
-F 1 "10k" H 4270 2055 50  0000 L CNN
+F 0 "R3" V 4300 2100 50  0000 L CNN
+F 1 "10k" V 4200 2050 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 4130 2100 50  0001 C CNN
 F 3 "http://www.farnell.com/datasheets/1960319.pdf" H 4200 2100 50  0001 C CNN
 F 4 "https://in.element14.com/walsin/wr06x1002ftl/res-10k-1-75v-0603-thick-film/dp/2502397" H 0   0   50  0001 C CNN "Vendor"
@@ -419,13 +419,13 @@ Text Label 6500 3350 0    50   ~ 0
 PA19
 NoConn ~ 1600 3650
 Text Label 1600 3450 0    50   ~ 0
-USB_DP
+USB_D+
 Text Label 1600 3550 0    50   ~ 0
-USB_DM
+USB_D-
 Text Label 6500 1350 0    50   ~ 0
-USB_DM
+USB_D-
 Text Label 6500 1550 0    50   ~ 0
-USB_DP
+USB_D+
 $Comp
 L power:VCC #PWR017
 U 1 1 5D7CB054
@@ -482,8 +482,8 @@ $Comp
 L Device:R R8
 U 1 1 5D7D3F06
 P 7600 3250
-F 0 "R8" H 7670 3296 50  0000 L CNN
-F 1 "750R" H 7670 3205 50  0000 L CNN
+F 0 "R8" V 7550 3000 50  0000 L CNN
+F 1 "750R" V 7600 3150 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 7530 3250 50  0001 C CNN
 F 3 "http://www.farnell.com/datasheets/2563624.pdf" H 7600 3250 50  0001 C CNN
 F 4 "https://in.element14.com/multicomp/mcwr06x7500ftl/res-750r-1-0-1w-thick-film/dp/2447432" H 7600 3250 50  0001 C CNN "Vendor"
@@ -943,8 +943,8 @@ $Comp
 L Device:R R1
 U 1 1 5D7D0CB6
 P 3400 2400
-F 0 "R1" H 3470 2446 50  0000 L CNN
-F 1 "0R" H 3470 2355 50  0000 L CNN
+F 0 "R1" H 3250 2400 50  0000 L CNN
+F 1 "0R" V 3400 2350 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 3330 2400 50  0001 C CNN
 F 3 "http://www.farnell.com/datasheets/1960319.pdf" H 3400 2400 50  0001 C CNN
 F 4 "https://in.element14.com/walsin/wr06x000-ptl/res-0r0-0603-thick-film/dp/2502392RL" H 3400 2400 50  0001 C CNN "Vendor"

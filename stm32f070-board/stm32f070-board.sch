@@ -419,13 +419,13 @@ Text Label 6500 3350 0    50   ~ 0
 PA19
 NoConn ~ 1600 3650
 Text Label 1600 3450 0    50   ~ 0
-USB_DP
+USB_D+
 Text Label 1600 3550 0    50   ~ 0
-USB_DM
+USB_D-
 Text Label 6500 1350 0    50   ~ 0
-USB_DM
+USB_D-
 Text Label 6500 1550 0    50   ~ 0
-USB_DP
+USB_D+
 $Comp
 L power:VCC #PWR017
 U 1 1 5D7CB054
@@ -1077,4 +1077,8 @@ Wire Wire Line
 	3800 3250 4250 3250
 Wire Wire Line
 	3300 3250 3800 3250
+Text Label 3550 5550 0    50   ~ 0
+USB_Data+
+Text Label 3550 5650 0    50   ~ 0
+USB_Data-
 $EndSCHEMATC
