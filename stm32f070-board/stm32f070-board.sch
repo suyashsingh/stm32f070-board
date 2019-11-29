@@ -802,7 +802,6 @@ Wire Wire Line
 	3150 5550 4150 5550
 Wire Wire Line
 	3150 5650 4150 5650
-NoConn ~ 3150 5350
 $Comp
 L power:GND #PWR05
 U 1 1 5D8B25BC
@@ -1081,4 +1080,32 @@ Text Label 3550 5550 0    50   ~ 0
 USB_Data+
 Text Label 3550 5650 0    50   ~ 0
 USB_Data-
+Wire Wire Line
+	3150 5350 3300 5350
+$Comp
+L power:+5V #PWR?
+U 1 1 5DE1D178
+P 3300 5050
+F 0 "#PWR?" H 3300 4900 50  0001 C CNN
+F 1 "+5V" H 3315 5223 50  0000 C CNN
+F 2 "" H 3300 5050 50  0001 C CNN
+F 3 "" H 3300 5050 50  0001 C CNN
+	1    3300 5050
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 5DE1D1D8
+P 2150 3150
+F 0 "#PWR?" H 2150 3000 50  0001 C CNN
+F 1 "+5V" H 2165 3323 50  0000 C CNN
+F 2 "" H 2150 3150 50  0001 C CNN
+F 3 "" H 2150 3150 50  0001 C CNN
+	1    2150 3150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2150 3250 2150 3150
+Wire Wire Line
+	3300 5350 3300 5050
 $EndSCHEMATC

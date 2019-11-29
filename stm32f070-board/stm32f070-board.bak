@@ -1077,4 +1077,8 @@ Wire Wire Line
 	3800 3250 4250 3250
 Wire Wire Line
 	3300 3250 3800 3250
+Text Label 3550 5550 0    50   ~ 0
+USB_Data+
+Text Label 3550 5650 0    50   ~ 0
+USB_Data-
 $EndSCHEMATC
