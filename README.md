@@ -5,6 +5,17 @@ EDA Tool: **KiCad(5.0.1)**.
 
 **Many thanks to [Balram](https://www.linkedin.com/in/balram-jatav-0a6467114/) for helping me out with the PCB design :slightly_smiling_face:**
 
+## Images
+1. 3D View of the Board
+![board-3d](stm32f070-board/manufacturing/board-3d.png)
+
+2. Fab House Front Copper Layer
+![board-fcu](stm32f070-board/manufacturing/fab-house-board-fcu.png)
+
+3. Board Front Copper Layer
+![board-fcu](stm32f070-board/manufacturing/board-fcu.png)
+
+
 ## Notes
 1. Changed the switches with were earlier decieded from *robu.in* to [this](https://in.element14.com/alcoswitch-te-connectivity/fsmsm/switch-spst-0-05a-24vdc-smd/dp/1703878) from element14, as mechanical dimentions were not available.
 
