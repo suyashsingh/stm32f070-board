@@ -3,16 +3,19 @@
 
 EDA Tool: **KiCad(5.0.1)**.
 
-**Many thanks to [Balram](https://www.linkedin.com/in/balram-jatav-0a6467114/) for helping me out with the PCB design :slightly_smiling_face:**
+**Many thanks to [Balram](https://www.linkedin.com/in/balram-jatav/) for helping me out with the PCB design :slightly_smiling_face:**
 
-## Images
-1. 3D View of the Board
+## Images 
+1. Real Board - before assembly
+![board-fab](stm32f070-board/manufacturing/fabricated-board.jpg)
+
+2. 3D View of the Board
 ![board-3d](stm32f070-board/manufacturing/board-3d.png)
 
-2. Fab House Front Copper Layer
+3. Fab House Front Copper Layer
 ![board-fcu](stm32f070-board/manufacturing/fab-house-board-fcu.png)
 
-3. Board Front Copper Layer
+4. Board Front Copper Layer
 ![board-fcu](stm32f070-board/manufacturing/board-fcu.png)
 
 ## Board Bring Up Checklist
@@ -21,7 +24,7 @@ EDA Tool: **KiCad(5.0.1)**.
 - [x] 3. Export gerbers - research about fab houses
 - [x] 4. Verify gerbers
 - [x] 5. Send board to fab house
-- [ ] 6. Generate BOM
+- [x] 6. Generate BOM
 - [ ] 7. Order component and tools
 - [ ] 8. Take actual size prints(of PCB) and roam in local component market.
 - [ ] 9. Populate and verify the power section
@@ -38,17 +41,23 @@ EDA Tool: **KiCad(5.0.1)**.
 - [ ] 20. Board bring up complete. Party :sunglasses:
 
 ## Timeline
-| Event                        | Date         |
-|------------------------------|--------------|
-| Project Start                | 12 Sep 2019  |
-| Schematic Complete           | 5th Oct 2019 |
-| Layout Complete              | 6th Oct 2019 |
-| Sent gerbers for fabrication | 3rd Dec 2019 |
+| Event                         | Date          |
+| ----------------------------- | ------------- |
+| Project Start                 | 12 Sep 2019   |
+| Schematic Complete            | 5th Oct 2019  |
+| Layout Complete               | 6th Oct 2019  |
+| Sent gerbers for fabrication  | 3rd Dec 2019  |
+| Received PCB's from fab house | 11th Dec 2019 |
+| BOM Complete                  | 17th Dec 2019 |
 
 ## Notes
-1. Changed the switches with were earlier decieded from *robu.in* to [this](https://in.element14.com/alcoswitch-te-connectivity/fsmsm/switch-spst-0-05a-24vdc-smd/dp/1703878) from element14, as mechanical dimentions were not available.
+1. Changed the switches with were earlier decieded from *robu.in* to [this](https://in.element14.com/alcoswitch-te-connectivity/fsmsm/switch-spst-0-05a-24vdc-smd/dp/1703878) from element14, as mechanical dimensions were not available.
 
 2. Links that might be useful for usb connector:
 	+ [Element 14 Page](https://in.element14.com/molex/47346-0001/usb-conn-2-0-micro-usb-type-b/dp/1568026?st=mirco%20usb%20connector)
 	+ [Digi Key Kicad Library](https://github.com/Digi-Key/digikey-kicad-library/tree/master/) - Search for MPN
 	+ [Mouser](https://www.mouser.in/ProductDetail/Molex/47346-0001?qs=c2CV6XM0DweJBWaSeyWeCw%3D%3D)
+
+3. Always do a board check when you recieve the board from the fab house. You can do:
+	a. Visual Inspection
+	b. Check for short between the power rails - This board has 3V3 and 5V power rails. Thanks to Balram for pointing out this.
