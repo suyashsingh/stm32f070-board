@@ -26,19 +26,7 @@ EDA Tool: **KiCad(5.0.1)**.
 - [x] 5. Send board to fab house
 - [x] 6. Generate BOM
 - [x] 7. Order component and tools
-- [ ] 8. Take actual size prints(of PCB) and roam in local component market.
-- [ ] 9. Populate and verify the power section
-- [ ] 10. Verify power to all sections, ics, etc.
-- [ ] 11. Populate uC and required components
-- [ ] 12. Verify uC with debugger
-- [ ] 13. Populate leds, switches, etc.
-- [ ] 14. Verify UART comes up as a COM port (use a raspberry pi)
-- [ ] 15. Check uC is switching clock to crystal - crystal faults
-- [ ] 16. Test user leds and switches
-- [ ] 17. Test RGB led
-- [ ] 18. Test I2C temp sensor
-- [ ] 19. Test UART for data TX and RX
-- [ ] 20. Board bring up complete. Party :sunglasses:
+
 
 ## Timeline
 | Event                         | Date          |
